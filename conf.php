@@ -1,4 +1,3 @@
 banco=127.0.0.1
 user=devops
-senha=4linu x
-cache=redis
+senha=4linux
