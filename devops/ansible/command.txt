@@ -1,0 +1,105 @@
+    1  exit
+    2  ls
+    3  cat /etc/host
+    4  cat /etc/hosts
+    5  hostname
+    6  hostname -A
+    7  ss -ntpl | grep 22
+    8  ping 8.8.8.8
+    9  vim /etc/ssh/ssh_config 
+   10  vim /etc/ssh/sshd_config 
+   11  systemctl restart ssh
+   12  vim /etc/ssh/sshd_config 
+   13  passwd root
+   14  ssh localhost
+   15  vgrant list
+   16  ls
+   17  ls -a
+   18  cd ..
+   19  ls
+   20  exit
+   21  vagrant status
+   22  ls
+   23  hostname
+   24  cd ..
+   25  apt update
+   26  cd ..
+   27  cd/
+   28  cd /etc/ansible
+   29  ls
+   30  cd /etc/
+   31  ls
+   32  cd /etc/ansible
+   33  apt install software-properties-commom -y
+   34  apt install software-properties-common -y
+   35  apt-repository ppa:ansible/ansible
+   36  apt-add-repository ppa:ansible/ansible
+   37  ansible --version
+   38  apt-add-repository ppa:ansible/ansible
+   39  apt-get install ansible
+   40  ls
+   41  ansible --verion
+   42  ansible --version
+   43  cd /etc/ansible/
+   44  ls
+   45  nano ansible.cfg 
+   46  vim ansible.cfg 
+   47  mkdir /etc/keys
+   48  ls
+   49  cd /etc/keys/
+   50  ssh -keygen
+   51  ssh -key gen
+   52  ssh -keygen
+   53  ssh-keygen
+   54  ls
+   55  ssh-copy-id -i devops.pem.pub root@automation.dexter.com.br
+   56  ls
+   57  ssh-copy-id -i devops.pem.pub root@docker.dexter.com.br
+   58  ssh-copy-id -i devops.pem.pub root@devops.dexter.com.br
+   59  ansible --version
+   60  apt-update && apt install ansible -y
+   61  apt update && apt install ansible -y
+   62  ansible --version
+   63  cd /
+   64  cd /etc/ansible/
+   65  ls
+   66  vim ansible.cfg
+   67  ssh-keygen
+   68  ssh-copy-id -i devops.pem.pub root@devops.dexter.com.br
+   69  ssh-copy-id -i devops.pem.pub root@docker.dexter.com.br
+   70  ssh-copy-id -i devops.pem.pub root@automation.dexter.com.br
+   71  cd /etc/hosts
+   72  cd /
+   73  ls
+   74  cd /etc/ansible/
+   75  ls
+   76  vim hosts 
+   77  ls
+   78  cd roles
+   79  ls
+   80  cd ..
+   81  ls
+   82  vim hosts 
+   83  ls
+   84  mkdir playbooks
+   85  cd playbooks
+   86  ls
+   87  vim primeiro.yaml
+   88  ansible
+   89  ansible all -m command -a "echo sou devops >/tmp/devops "
+   90  cd /
+   91  cd /etc/keys/
+   92  ls
+   93  cd /etc/ansible/
+   94  vim ansible.cfg
+   95  cd i-
+   96  cd -
+   97  ssh-copy-id -i devops.pem.pub root@devops.dexter.com.br
+   98  ssh-keygen
+   99  ssh-copy-id -i devops.pem.pub root@devops.dexter.com.br
+  100  ssh-copy-id -i devops.pem.pub root@docker.dexter.com.br
+  101  ssh-copy-id -i devops.pem.pub root@automation.dexter.com.br
+  102  cd - 
+  103  ansible all -m command -a "echo sou devops >/tmp/devops "
+  104  history
+  105  history >command.txt
