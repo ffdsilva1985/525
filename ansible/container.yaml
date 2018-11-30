@@ -1,0 +1,4 @@
+- name: Criando os volumes e container
+  hosts: docker
+  roles: 
+   - container-docker

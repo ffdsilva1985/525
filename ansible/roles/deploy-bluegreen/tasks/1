@@ -1,0 +1,14 @@
+---
+# tasks file for deploy-bluegreen
+- name: Verificando o container que esta no ar
+  stat:
+   path: /etc/nginx/sites-enable/green.cof
+  register: vhost
+
+- name: Copiando o site blue
+  copy:
+           src: 
+   dest: /vat/lib/docker/volumes/blue/_data/index
+
+
+
